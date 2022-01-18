@@ -4,13 +4,13 @@ import numpy.random
 import matplotlib.pyplot as pyplot
 
 # Set the values of the following constants
-m = 1							# Mass of the particle
-T = 4							# Time interval
-N = 7							# Number of time steps
+m = 1						# Mass of the particle
+T = 4						# Time interval
+N = 7						# Number of time steps
 a = T / N
 epsilon = 1.4					# Maximum changes to a path element
-N_cf = 1000						# Number of saved paths
-N_cor = 20						# Number of intervening sweeps
+N_cf = 1000					# Number of saved paths
+N_cor = 20					# Number of intervening sweeps
 x_min, x_max = 0, 2				# Bounds of x-axis
 x_spacing = 0.1					# x-axis spacing
 
