@@ -14,11 +14,11 @@ Example output:
 
 When the step size parameter is too small, convergence is very slow. Indeed, despite 10,000 gradient descent steps, the plotted trajectory for this case does not reach the minimum. When the step size is too large, the GD method is unstable as the trajectory either overshoots the minimum or never reaches it at all. Indeed, the plotted trajectory for this case reaches the valley of the function but does not approach the minimum.
 
-## gradient-descent.py
+## chemotaxis.py
 
 This module produces a simulation of Chemotaxis, a modified random walk used by some bacteria to find food sources.
 
-	python3 gradient-descent.py
+	python3 chemotaxis.py
 
 Example output:
 
