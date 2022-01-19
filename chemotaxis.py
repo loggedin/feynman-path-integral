@@ -1,5 +1,3 @@
-'''This module produces a simulation of Chemotaxis, a modified random walk used by some bacteria to find food sources.'''
-
 from __future__ import division
 import numpy
 import numpy.random
