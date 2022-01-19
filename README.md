@@ -10,7 +10,7 @@ This module produces a plot illustrating the different behaviours of the gradien
 
 Example output:
 
-![gradient-descent](https://user-images.githubusercontent.com/97130665/150220119-c3b357c1-1557-4b6b-a755-0365a5f6ac35.png)
+![gradient-descent](https://user-images.githubusercontent.com/97130665/150220262-e714bb9e-edc6-4083-984a-7e195fc07ded.png)
 
 When the step size parameter is too small, convergence is very slow. Indeed, despite 10,000 gradient descent steps, the plotted trajectory for this case does not reach the minimum. When the step size is too large, the GD method is unstable as the trajectory either overshoots the minimum or never reaches it at all. Indeed, the plotted trajectory for this case reaches the valley of the function but does not approach the minimum.
 
