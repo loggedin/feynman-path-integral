@@ -22,6 +22,6 @@ This module produces a simulation of Chemotaxis, a modified random walk used by 
 
 Example output:
 
-![chemotaxis](https://user-images.githubusercontent.com/97130665/150216892-c2fb4fdd-5772-42d5-adf9-d9a43a44d831.png)
+![chemotaxis](https://user-images.githubusercontent.com/97130665/150219755-7b9ce3e3-cd9a-4bab-a01e-4983051be5be.png)
 
 The sensitivity of the bacteria, k, cannot be too big. Indeed, when k is very large, the bacteria behave very similarly to the case where k = 0.2: they reach the position of maximum energy density in around fifty seconds. When k is too small, the bacteria take longer to reach the position of maximum energy density. This is because the bacteria are less likely to tumble when the energy density is decreasing.
