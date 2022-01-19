@@ -13,3 +13,15 @@ Example output:
 ![gradient-descent](https://user-images.githubusercontent.com/97130665/150215868-5b91452b-c89e-4e8c-9822-b054dd0b0e6d.png)
 
 When the step size parameter is too small, convergence is very slow. Indeed, despite 10,000 gradient descent steps, the plotted trajectory for this case does not reach the minimum. When the step size is too large, the GD method is unstable as the trajectory either overshoots the minimum or never reaches it at all. Indeed, the plotted trajectory for this case reaches the valley of the function but does not approach the minimum.
+
+## gradient-descent.py
+
+This module produces a simulation of Chemotaxis, a modified random walk used by some bacteria to find food sources.
+
+	python3 gradient-descent.py
+
+Example output:
+
+![chemotaxis](https://user-images.githubusercontent.com/97130665/150216892-c2fb4fdd-5772-42d5-adf9-d9a43a44d831.png)
+
+The sensitivity of the bacteria, k, cannot be too big. Indeed, when k is very large, the bacteria behave very similarly to the case where k = 0.2: they reach the position of maximum energy density in around fifty seconds. When k is too small, the bacteria take longer to reach the position of maximum energy density. This is because the bacteria are less likely to tumble when the energy density is decreasing.
