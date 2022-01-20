@@ -4,7 +4,7 @@ This repository contains scripts that demonstrate various machine learning algor
 
 ## gradient-descent.py
 
-This module produces a plot and text illustrating the different behaviours of the gradient descent method when finding the minimum of Rosenbrock's Banana Function. It also gives where the minimum of the function occurs.
+This script produces a plot and text illustrating the different behaviours of the gradient descent method when finding the minimum of Rosenbrock's Banana Function. It also gives where the minimum of the function occurs.
 
 	python3 gradient-descent.py
 
@@ -16,7 +16,7 @@ When the step size parameter is too small, convergence is very slow. Indeed, des
 
 ## chemotaxis.py
 
-This module produces a simulation of Chemotaxis, a modified random walk used by some bacteria to find food sources.
+This script produces a simulation of Chemotaxis, a modified random walk used by some bacteria to find food sources.
 
 	python3 chemotaxis.py
 
@@ -28,7 +28,7 @@ The sensitivity of the bacteria, k, cannot be too big. Indeed, when k is very la
 
 ## newton-raphson.py
 
-This module demonstrates the chaotic behaviour of the Newton-Raphson method.
+This script demonstrates the chaotic behaviour of the Newton-Raphson method.
 
 	python3 newton-raphson.py
 
