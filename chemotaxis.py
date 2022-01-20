@@ -125,5 +125,3 @@ pyplot.legend(loc = 5)
 
 pyplot.tight_layout()
 pyplot.show()
-
-#COMMENT: The sensitivity of the bacteria, k, cannot be too big. Indeed, when k is very large, the bacteria behave very similarly to the case where k = 0.2: they reach the position of maximum energy density in around fifty seconds. When k is too small, the bacteria take longer to reach the position of maximum energy density. This is because the bacteria are less likely to tumble when the energy density is decreasing.
