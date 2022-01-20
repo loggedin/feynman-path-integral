@@ -1,5 +1,3 @@
-'''This module demonstrates the chaotic behaviour of the Newton-Raphson method.'''
-
 from __future__ import division
 import numpy
 import matplotlib.pyplot as pyplot
@@ -134,5 +132,3 @@ pyplot.colorbar(im, orientation = "vertical")
 
 pyplot.tight_layout()
 pyplot.show()
-
-#COMMENT: The left-hand diagrams show the identified roots for different ranges of seed points; the right-hand diagrams show the number of iterations, or convergence time, to locate the identified roots for these seed points. Both sets of diagrams demonstrate the chaotic behaviour of the respective aspect of the Newton-Raphson method because they are extremely complex. This shows that, although they are completely deterministic, both aspects are highly sensitive to the initial conditions and exhibit topological mixing. Furthermore, the images in the diagrams are said to be fractal in nature because they have self-similarity, that is, they look the same at difference scales. This is shown by the lower diagrams which have different scales to the corresponding diagrams above.
