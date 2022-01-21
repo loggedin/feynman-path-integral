@@ -12,8 +12,8 @@ run_time = 100					#run time in seconds
 dt = 0.1					#timestep in seconds
 timebase = numpy.arange(0, run_time, dt)	#an array containing all the time points in seconds
 v = 2						#speed of bacteria in microns per second
-k = 0.2					#sensitivity of bacteria
-x0, y0 = 30, 20				#origin of bacteria in microns
+k = 0.2						#sensitivity of bacteria
+x0, y0 = 30, 20					#origin of bacteria in microns
 
 def random_walk(x0, y0):
 	'''This function returns the trajectory of a bacterium.'''
