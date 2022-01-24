@@ -40,6 +40,8 @@ The left-hand diagrams show the identified roots for different ranges of seed po
 
 ## markov-chain-monte-carlo.py
 
+ε
+
 	python3 markov-chain-monte-carlo.py
 
 Example output:
