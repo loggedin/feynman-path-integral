@@ -42,7 +42,7 @@ The left-hand diagrams show the identified roots for different ranges of seed po
 
 ![Capture](https://user-images.githubusercontent.com/97130665/150842531-04ba8990-3768-4ea6-a8b7-6d9f35d28ff7.PNG)
 
-![output-onlinepngtools](https://user-images.githubusercontent.com/97130665/150842981-fa38401f-88dc-4cc5-9deb-61e49da5aa6e.png)
+![output-onlinepngtools](https://user-images.githubusercontent.com/97130665/150843172-93f610cb-0f82-44f0-8336-29803933a13a.png)
 
 1. Generate a uniformly random number, ζ, between −ε and ε;
 2. Perturb the first path element by ζ;
