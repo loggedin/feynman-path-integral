@@ -47,6 +47,8 @@ The left-hand diagrams show the identified roots for different ranges of seed po
 5. If ∆E > 0: generate a uniformly random number, η, between 0 and 1 and only accept the change if e^(−∆E > η);
 6. Repeat the above steps for all path elements.
 
+text
+
 	python3 markov-chain-monte-carlo.py
 
 Example output:
