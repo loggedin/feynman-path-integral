@@ -40,7 +40,15 @@ The left-hand diagrams show the identified roots for different ranges of seed po
 
 ## markov-chain-monte-carlo.py
 
+In the Feynman Path Integral formulation of quantum mechanics, the value of the quantum mechanical propagator can be evaluated numerically by discretising time.
+
+If the t-axis is split into N slices and the endpoints of the paths are held fixed as x, then the quantum mechanical propagator can be rewritten as
+
 ![equation](https://user-images.githubusercontent.com/97130665/150843644-0c135e37-6f42-4ec1-9168-e565dbc9c63b.png)
+
+where E denotes the summed energy along the path.
+
+A Markov Chain Monte Carlo method can be used to evaluate the multi-dimensional integral above. Specifically, the Metropolis-Hastings algorithm:
 
 1. Generate a uniformly random number, ζ, between −ε and ε;
 2. Perturb the first path element by ζ;
@@ -49,7 +57,7 @@ The left-hand diagrams show the identified roots for different ranges of seed po
 5. If ∆E > 0: generate a uniformly random number, η, between 0 and 1 and only accept the change if e^(−∆E > η);
 6. Repeat the above steps for all path elements.
 
-text
+This script simulates a particle of mass m = 1 constrained to the x-axis and subject to the potential V(x) = x^2 / 2.
 
 	python3 markov-chain-monte-carlo.py
 
