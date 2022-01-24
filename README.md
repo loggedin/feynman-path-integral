@@ -40,6 +40,8 @@ The left-hand diagrams show the identified roots for different ranges of seed po
 
 ## markov-chain-monte-carlo.py
 
+![Capture](https://user-images.githubusercontent.com/97130665/150842531-04ba8990-3768-4ea6-a8b7-6d9f35d28ff7.PNG)
+
 1. Generate a uniformly random number, ζ, between −ε and ε;
 2. Perturb the first path element by ζ;
 3. Calculate the resulting change in energy along the path, ∆E;
