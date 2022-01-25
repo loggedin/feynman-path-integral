@@ -81,6 +81,12 @@ pyplot.ylabel("y / microns")
 im = pyplot.imshow(dat, extent = (x_axis_start, x_axis_end, y_axis_start, y_axis_end), origin = "lower", cmap = matplotlib.cm.gray, norm = matplotlib.colors.Normalize(vmin = -3000, vmax = 2000))
 pyplot.colorbar(im, orientation = "vertical")
 
+sub222 = pyplot.subplot(222)
+pyplot.title("Simplified trajectories")
+pyplot.xlabel("x / microns")
+pyplot.ylabel("y / microns")
+pyplot.axis([-10, 40, -10, 30])
+
 #Two arrays to store the square displacements for each bacterium at each time point
 square_differences_origin = numpy.zeros((20, 1000))
 square_differences_maximum = numpy.zeros((20, 1000))
@@ -90,12 +96,7 @@ for i in range(20):
 	
 	sub221.plot(values[0, :], values[1, :])
 	
-	pyplot.subplot(222)
-	pyplot.title("Simplified trajectories")
-	pyplot.xlabel("x / microns")
-	pyplot.ylabel("y / microns")
-	pyplot.axis([-10, 40, -10, 30])
-	pyplot.plot([values[0, 0], values[0, -1]], [values[1, 0], values[1, -1]], marker = "o")
+	sub222.plot([values[0, 0], values[0, -1]], [values[1, 0], values[1, -1]], marker = "o")
 	
 	x_differences_origin = values[0, :] - 30.0
 	y_differences_origin = values[1, :] - 20.0
