@@ -64,5 +64,3 @@ This script simulates a particle of mass m = 1 constrained to the x-axis and sub
 Example output:
 
 ![markov-chain-monte-carlo](https://user-images.githubusercontent.com/97130665/150395856-b7ace4db-ffda-4710-97bd-8e31ac810dbb.png)
-
-WORK IN PROGRESS
