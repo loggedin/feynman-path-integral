@@ -1,6 +1,6 @@
 # machine-learning-theoretical
 
-This repository contains scripts that demonstrate various machine learning algorithms.
+This repository contains scripts that demonstrate the inner workings of various machine learning algorithms.
 
 ## gradient-descent.py
 
