@@ -1,4 +1,4 @@
-# machine-learning
+# machine-learning-theoretical
 
 This repository contains scripts that demonstrate various machine learning algorithms.
 
