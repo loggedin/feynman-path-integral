@@ -8,9 +8,11 @@ In the Feynman Path Integral formulation of quantum mechanics, the value of the 
 
 If the t-axis is split into N slices and the endpoints of the paths are held fixed as x, then the quantum mechanical propagator can be rewritten as
 
-![equation](https://user-images.githubusercontent.com/97130665/150843644-0c135e37-6f42-4ec1-9168-e565dbc9c63b.png)
+$$
+\langle x | e^{-\hat{H}(t_f - t_i)} | x \rangle = A \int_{-\infty}^{\infty} dx_1 \, \dots \, dx_{N-1} \, e^{- \frac{t_f - t_i}{N} E[x]},
+$$
 
-where E denotes the summed energy along the path.
+where E denotes the summed energy along the path and A is a normalisation constant.
 
 A Markov Chain Monte Carlo method can be used to evaluate the multi-dimensional integral above. Specifically, the Metropolis-Hastings algorithm:
 
@@ -22,9 +24,3 @@ A Markov Chain Monte Carlo method can be used to evaluate the multi-dimensional 
 6. Repeat the above steps for all path elements.
 
 This script simulates a particle of mass m = 1 constrained to the x-axis and subject to the potential V(x) = x^2 / 2.
-
-	python3 markov-chain-monte-carlo.py
-
-Example output:
-
-![markov-chain-monte-carlo](https://user-images.githubusercontent.com/97130665/150395856-b7ace4db-ffda-4710-97bd-8e31ac810dbb.png)
