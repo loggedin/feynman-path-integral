@@ -1,8 +1,4 @@
-# machine-learning-theoretical
-
-This repository contains scripts that demonstrate the inner workings of various machine learning algorithms.
-
-## markov-chain-monte-carlo.py
+# metropolis-algorithm
 
 In the Feynman Path Integral formulation of quantum mechanics, the value of the quantum mechanical propagator can be evaluated numerically by discretising time.
 
