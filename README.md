@@ -9,7 +9,7 @@ In the Feynman Path Integral formulation of quantum mechanics, the value of the 
 If the t-axis is split into N slices and the endpoints of the paths are held fixed as x, then the quantum mechanical propagator can be rewritten as
 
 $$
-\langle x | e^{-\hat{H}(t_f - t_i)} | x \rangle = A \int_{-\infty}^{\infty} dx_1 \, \dots \, dx_{N-1} \, e^{- \frac{t_f - t_i}{N} E[x]},
+\langle x | e^{-\hat{H}(t_f - t_i)} | x \rangle = A \int_{-\infty}^{\infty} dx_1 \dots dx_{N-1} e^{- \frac{t_f - t_i}{N} E[x]},
 $$
 
 where E denotes the summed energy along the path and A is a normalisation constant.
