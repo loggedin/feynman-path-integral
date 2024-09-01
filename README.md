@@ -1,4 +1,4 @@
-# metropolis-algorithm
+# feynman-path-integral
 
 In the Feynman Path Integral formulation of quantum mechanics, the value of the quantum mechanical propagator can be evaluated numerically by discretising time.
 
